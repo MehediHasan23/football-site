@@ -27,7 +27,7 @@ body{
     transition: transform 2s;
     
 }
-.text-part a{
+.button{
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: #E02C6D;
@@ -77,3 +77,20 @@ players section
 /*//////////
 /extra 
 ////////// */
+.middle-part-area{
+    display: grid;
+    grid-template-columns: repeat(2, 470px);
+    grid-column-gap: 66px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 165px;
+}
+.text h2{
+    font-size: 48px;
+    line-height: 30px;
+    font-weight: 700;
+}
+.pic img{
+    width: 567px;
+    height: 427px;
+}
