@@ -24,11 +24,12 @@ body{
     line-height: 40px;
     font-weight: bold;
     color: white;
-    transition: transform 2s;
+    transition: transform 1s;
     
 }
 .button{
     text-decoration: none;
+    font-weight: 700;
     color: rgb(255, 255, 255);
     background-color: #E02C6D;
     padding:10px 24px;
@@ -43,7 +44,7 @@ body{
     transform: translateY(-50px);
 }
 .text-part h1:hover {
-    transform: scale(0.5) translate(50%, -100%);
+    transform: scale(0.7) translate(50%, -50%);
 }
 /* --------------
 players section
@@ -94,3 +95,32 @@ players section
     width: 567px;
     height: 427px;
 }
+/* bottom-part */
+
+/* -------------- */
+footer{
+    margin-top: 158px;
+}
+
+.logo-pic img{
+    width: 483.87px;
+    height: 110px;   
+}
+.logo-pic{
+    text-align: center;
+}
+.font-awesome{
+    text-align: center;
+   
+}
+.font-awesome a .fab{
+    color: gray;
+    margin: 3px;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.438);
+    border-radius: 50%;
+}
+/* ---------------
+--------------------
+----------------------- */
