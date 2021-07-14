@@ -95,6 +95,23 @@ players section
     width: 567px;
     height: 427px;
 }
+/* middle extra */
+.my-part{
+    display: grid;
+    grid-template-columns: repeat(2, 470px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    grid-column-gap: 100px;
+}
+.extra-part img{
+    width: 600px;
+    height: 500px;
+}
+.extra-part h2{
+    font-size: 40px;
+    font-weight: bold;
+}
 /* bottom-part */
 
 /* -------------- */
@@ -114,11 +131,11 @@ footer{
    
 }
 .font-awesome a .fab{
-    color: gray;
+    color: #969BAB;
     margin: 3px;
     padding: 5px;
-    border: 1px solid gray;
-    background-color: rgba(128, 128, 128, 0.438);
+    border: 1px solid #E7E7E8;
+    background-color: #E7E7E8;
     border-radius: 50%;
 }
 /* ---------------
@@ -128,7 +145,7 @@ footer{
     media Queries
 ---------------- */
 @media screen and (max-width:688px) {
-    .hedding, .players, .middle-part-area{
+    .hedding, .players, .my-part, .middle-part-area{
         grid-template-columns: repeat(1, 330px);
         grid-row-gap: 30px;
     }
@@ -156,6 +173,15 @@ footer{
         width: 328px;
         height: 248px;
     }  
+    .extra-part img{
+        width: 328px;
+        height: 248px;
+    }
+    .extra-part h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+
     .logo-pic img{
         width: 275px;
         height: 70px;
