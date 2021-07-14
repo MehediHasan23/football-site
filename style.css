@@ -111,6 +111,7 @@ players section
 .extra-part h2{
     font-size: 40px;
     font-weight: bold;
+    letter-spacing: 3px;
 }
 /* bottom-part */
 
@@ -180,6 +181,7 @@ footer{
     .extra-part h2{
         font-size: 30px;
         line-height: 40px;
+        letter-spacing: 2px;
     }
 
     .logo-pic img{
