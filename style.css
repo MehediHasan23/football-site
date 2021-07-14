@@ -44,7 +44,7 @@ body{
     transform: translateY(-50px);
 }
 .text-part h1:hover {
-    transform: scale(0.7) translate(50%, -50%);
+    transform: skew(-10deg, 10deg);
 }
 /* --------------
 players section
@@ -187,8 +187,5 @@ footer{
         height: 70px;
         
     }
-    
-
-
-    
+     
 }
