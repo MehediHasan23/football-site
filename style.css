@@ -95,7 +95,7 @@ players section
     width: 567px;
     height: 427px;
 }
-/* middle extra */
+/* bonus-part */
 .my-part{
     display: grid;
     grid-template-columns: repeat(2, 470px);
@@ -112,6 +112,15 @@ players section
     font-size: 40px;
     font-weight: bold;
     letter-spacing: 3px;
+}
+/* bonus-part */
+.extra-containers{
+    margin-top: 60px;
+}
+.extra-containers .containers-title{
+    text-align: center;
+    color: #E02C6D;
+    font-weight: 700;
 }
 /* bottom-part */
 
